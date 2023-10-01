@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_58872_needit_needit</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_58872_needit.needed_tomorrow</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance>high</importance>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Hello, <strong>${u_requested_for.first_name} ${u_requested_for.last_name}</strong>!</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">A genuine reminder that you have a pending request scheduled for <strong>tomorrow ${javascript:gs.daysAgo(-1)}</strong>.</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Following are the details:</span></p>
+<table style="border-collapse: collapse; width: 63.3778%; height: 92.4px; border-color: #34495e;" border="1">
+<tbody>
+<tr style="height: 15.4px;">
+<td style="width: 28.1096%; height: 15.4px;"><span style="font-family: tahoma, arial, helvetica, sans-serif;">ID</span></td>
+<td style="width: 71.8552%; height: 15.4px;"><span style="color: #236fa1;"><strong><span style="font-family: tahoma, arial, helvetica, sans-serif;">${number}</span></strong></span></td>
+</tr>
+<tr style="height: 15.4px;">
+<td style="width: 28.1096%; height: 15.4px;"><span style="font-family: tahoma, arial, helvetica, sans-serif;">Requested for</span></td>
+<td style="width: 71.8552%; height: 15.4px;"><span style="color: #236fa1;"><strong><span style="font-family: tahoma, arial, helvetica, sans-serif;">${u_requested_for.first_name} ${u_requested_for.last_name}</span></strong></span></td>
+</tr>
+<tr style="height: 15.4px;">
+<td style="width: 28.1096%; height: 15.4px;"><span style="font-family: tahoma, arial, helvetica, sans-serif;">Request type</span></td>
+<td style="width: 71.8552%; height: 15.4px;"><span style="color: #236fa1;"><strong><span style="font-family: tahoma, arial, helvetica, sans-serif;">${u_request_type}</span></strong></span></td>
+</tr>
+<tr style="height: 15.4px;">
+<td style="width: 28.1096%; height: 15.4px;"><span style="font-family: tahoma, arial, helvetica, sans-serif;">What needed</span></td>
+<td style="width: 71.8552%; height: 15.4px;"><span style="color: #236fa1;"><strong><span style="font-family: tahoma, arial, helvetica, sans-serif;">${u_what_needed}</span></strong></span></td>
+</tr>
+<tr style="height: 15.4px;">
+<td style="width: 28.1096%; height: 15.4px;"><span style="font-family: tahoma, arial, helvetica, sans-serif;">When needed</span></td>
+<td style="width: 71.8552%; height: 15.4px;"><span style="color: #236fa1;"><strong><span style="font-family: tahoma, arial, helvetica, sans-serif;">${u_when_needed}</span></strong></span></td>
+</tr>
+<tr style="height: 15.4px;">
+<td style="width: 28.1096%; height: 15.4px;"><span style="font-family: tahoma, arial, helvetica, sans-serif;">Priority</span></td>
+<td style="width: 71.8552%; height: 15.4px;"><span style="color: #236fa1;"><strong><span style="font-family: tahoma, arial, helvetica, sans-serif;">${priority}</span></strong></span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Short description: <span style="color: #843fa1;"><strong>${short_description}</strong></span><br /></span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Description: <span style="color: #843fa1;"><strong>${description}</strong></span></span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; background-color: #ffffff; font-size: 10pt;">Click here to manage record: <strong>${URI}.</strong></span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Thank you!</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Best,</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif;">Your handsome admin - Wayne</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Requests needed tomorrow</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_requested_for</recipient_fields>
+        <recipient_groups/>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Request Needed Tomorrow - ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 15:40:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>283bb4369765b110212abd3ef053af14</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Requests needed tomorrow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_action_283bb4369765b110212abd3ef053af14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 17:12:54</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
